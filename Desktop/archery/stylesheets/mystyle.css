@@ -1,0 +1,73 @@
+body {
+  box-sizing: border-box;
+  background-color: #523E33;
+  color: saddlebrown;
+  font-size: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'IM Fell English SC'; 
+  color: #D7E7B8;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+article, p, nav, a {
+  font-family: 'Sorts Mill Goudy';
+  color: #D7E7B8;
+}
+
+.header {
+  text-align: center;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    display: inline-flex;
+}
+
+aside ul {
+  list-style-type:none;
+}
+
+li {
+  padding: 0.5rem;
+  color: white;
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+  font-family: 'Sorts Mill Goudy';
+}
+
+#logo-image {
+  width: 25%;
+  height: 25%;
+  align-items: center;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
